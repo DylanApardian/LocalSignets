@@ -55,7 +55,6 @@ def soap_endpoint():
         return get_response(f'{SESSIONS_DIR}/sessions.xml')       
 
     if soap_action == "http://etsmtl.ca/listeCours":
-        print(request.data)
         return get_response(f'{COURS_DIR}/cours.xml')
     
     if soap_action == "http://etsmtl.ca/lireEvaluationCours":

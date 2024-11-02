@@ -1,0 +1,413 @@
+{
+  "name": "Signets",
+  "version": "1",
+  "items": [
+    {
+      "type": "http",
+      "name": "donneesAuthentificationValides",
+      "seq": 3,
+      "request": {
+        "url": "{{signets}}",
+        "method": "POST",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "signets-ens.etsmtl.ca",
+            "enabled": true
+          },
+          {
+            "name": "SOAPAction",
+            "value": "http://etsmtl.ca/donneesAuthentificationValides",
+            "enabled": true
+          },
+          {
+            "name": "Content-Type",
+            "value": "text/xml; charset=utf-8",
+            "enabled": true
+          }
+        ],
+        "params": [],
+        "body": {
+          "mode": "xml",
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <donneesAuthentificationValides xmlns=\"http://etsmtl.ca/\">\n      <codeAccesUniversel>{{username}}</codeAccesUniversel>\n      <motPasse>{{password}}</motPasse>\n    </donneesAuthentificationValides>\n  </soap:Body>\n</soap:Envelope>",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "auth": {
+          "mode": "none"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "name": "infoEtudiant",
+      "seq": 4,
+      "request": {
+        "url": "{{localApi}}",
+        "method": "POST",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "signets-ens.etsmtl.ca",
+            "enabled": true
+          },
+          {
+            "name": "SOAPAction",
+            "value": "http://etsmtl.ca/infoEtudiant",
+            "enabled": true
+          },
+          {
+            "name": "Content-Type",
+            "value": "text/xml; charset=utf-8",
+            "enabled": true
+          }
+        ],
+        "params": [],
+        "body": {
+          "mode": "xml",
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <infoEtudiant xmlns=\"http://etsmtl.ca/\">\n      <codeAccesUniversel>{{username}}</codeAccesUniversel>\n      <motPasse>{{password}}</motPasse>\n    </infoEtudiant>\n  </soap:Body>\n</soap:Envelope>",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "auth": {
+          "mode": "none"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "name": "lireHoraireDesSeances",
+      "seq": 7,
+      "request": {
+        "url": "{{signets}}",
+        "method": "POST",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "signets-ens.etsmtl.ca",
+            "enabled": true
+          },
+          {
+            "name": "SOAPAction",
+            "value": "http://etsmtl.ca/lireHoraireDesSeances",
+            "enabled": true
+          },
+          {
+            "name": "Content-Type",
+            "value": "text/xml; charset=utf-8",
+            "enabled": true
+          }
+        ],
+        "params": [],
+        "body": {
+          "mode": "xml",
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n    <soap:Body>\r\n        <lireHoraireDesSeances xmlns=\"http://etsmtl.ca/\">\r\n            <codeAccesUniversel>{{username}}</codeAccesUniversel>\r\n            <motPasse>{{password}}</motPasse>\r\n            <pCoursGroupe></pCoursGroupe>\r\n            <pSession>A2024</pSession>\r\n            <pDateDebut></pDateDebut>\r\n            <pDateFin></pDateFin>\r\n        </lireHoraireDesSeances>\r\n    </soap:Body>\r\n</soap:Envelope>",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "auth": {
+          "mode": "none"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "name": "listeCours",
+      "seq": 2,
+      "request": {
+        "url": "{{signets}}",
+        "method": "POST",
+        "headers": [
+          {
+            "name": "SOAPAction",
+            "value": "http://etsmtl.ca/listeCours",
+            "enabled": true
+          },
+          {
+            "name": "Content-Type",
+            "value": "text/xml; charset=utf-8",
+            "enabled": true
+          },
+          {
+            "name": "Host",
+            "value": "signets-ens.etsmtl.ca",
+            "enabled": true
+          }
+        ],
+        "params": [],
+        "body": {
+          "mode": "xml",
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n    <soap:Body>\r\n        <listeCours xmlns=\"http://etsmtl.ca/\">\r\n            <codeAccesUniversel>{{username}}</codeAccesUniversel>\r\n            <motPasse>{{password}}</motPasse>\r\n        </listeCours>\r\n    </soap:Body>\r\n</soap:Envelope>",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "auth": {
+          "mode": "none"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "name": "listeElementsEvaluation",
+      "seq": 10,
+      "request": {
+        "url": "{{signets}}",
+        "method": "POST",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "signets-ens.etsmtl.ca",
+            "enabled": true
+          },
+          {
+            "name": "SOAPAction",
+            "value": "http://etsmtl.ca/listeElementsEvaluation",
+            "enabled": true
+          },
+          {
+            "name": "Content-Type",
+            "value": "text/xml; charset=utf-8",
+            "enabled": true
+          }
+        ],
+        "params": [],
+        "body": {
+          "mode": "xml",
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <listeElementsEvaluation xmlns=\"http://etsmtl.ca/\">\n      <codeAccesUniversel>{{username}}</codeAccesUniversel>\n      <motPasse>{{password}}</motPasse>\n      <pSigle>MAT350</pSigle>\n      <pGroupe>01</pGroupe>\n      <pSession>A2024</pSession>\n    </listeElementsEvaluation>\n  </soap:Body>\n</soap:Envelope>",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "auth": {
+          "mode": "none"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "name": "listeEvaluationCours",
+      "seq": 5,
+      "request": {
+        "url": "{{signets}}",
+        "method": "POST",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "signets-ens.etsmtl.ca",
+            "enabled": true
+          },
+          {
+            "name": "SOAPAction",
+            "value": "http://etsmtl.ca/lireEvaluationCours",
+            "enabled": true
+          },
+          {
+            "name": "Content-Type",
+            "value": "text/xml; charset=utf-8",
+            "enabled": true
+          }
+        ],
+        "params": [],
+        "body": {
+          "mode": "xml",
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n    <soap:Body>\n        <lireEvaluationCours xmlns=\"http://etsmtl.ca/\">\n            <codeAccesUniversel>{{username}}</codeAccesUniversel>\n            <motPasse>{{password}}</motPasse>\n            <pSession>A2024</pSession>\n        </lireEvaluationCours>\n    </soap:Body>\n</soap:Envelope>",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "auth": {
+          "mode": "none"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "name": "listeHoraireEtProf",
+      "seq": 9,
+      "request": {
+        "url": "{{signets}}",
+        "method": "POST",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "signets-ens.etsmtl.ca",
+            "enabled": true
+          },
+          {
+            "name": "SOAPAction",
+            "value": "http://etsmtl.ca/listeHoraireEtProf",
+            "enabled": true
+          },
+          {
+            "name": "Content-Type",
+            "value": "text/xml; charset=utf-8",
+            "enabled": true
+          }
+        ],
+        "params": [],
+        "body": {
+          "mode": "xml",
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <listeHoraireEtProf xmlns=\"http://etsmtl.ca/\">\n      <codeAccesUniversel>{{username}}</codeAccesUniversel>\n      <motPasse>{{password}}</motPasse>\n      <pSession>A2024</pSession>\n    </listeHoraireEtProf>\n  </soap:Body>\n</soap:Envelope>",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "auth": {
+          "mode": "none"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "name": "listeProgrammes",
+      "seq": 11,
+      "request": {
+        "url": "{{signets}}",
+        "method": "POST",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "signets-ens.etsmtl.ca",
+            "enabled": true
+          },
+          {
+            "name": "SOAPAction",
+            "value": "http://etsmtl.ca/listeProgrammes",
+            "enabled": true
+          },
+          {
+            "name": "Content-Type",
+            "value": "text/xml; charset=utf-8",
+            "enabled": true
+          }
+        ],
+        "params": [],
+        "body": {
+          "mode": "xml",
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <listeProgrammes xmlns=\"http://etsmtl.ca/\">\n      <codeAccesUniversel>{{username}}</codeAccesUniversel>\n      <motPasse>{{password}}</motPasse>\n    </listeProgrammes>\n  </soap:Body>\n</soap:Envelope>",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "auth": {
+          "mode": "none"
+        }
+      }
+    },
+    {
+      "type": "http",
+      "name": "listeSessions",
+      "seq": 8,
+      "request": {
+        "url": "{{signets}}",
+        "method": "POST",
+        "headers": [
+          {
+            "name": "Host",
+            "value": "signets-ens.etsmtl.ca",
+            "enabled": true
+          },
+          {
+            "name": "SOAPAction",
+            "value": "http://etsmtl.ca/listeSessions",
+            "enabled": true
+          },
+          {
+            "name": "Content-Type",
+            "value": "text/xml; charset=utf-8",
+            "enabled": true
+          }
+        ],
+        "params": [],
+        "body": {
+          "mode": "xml",
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <listeSessions xmlns=\"http://etsmtl.ca/\">\n      <codeAccesUniversel>{{username}}</codeAccesUniversel>\n      <motPasse>{{password}}</motPasse>\n    </listeSessions>\n  </soap:Body>\n</soap:Envelope>",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "auth": {
+          "mode": "none"
+        }
+      }
+    }
+  ],
+  "environments": [],
+  "root": {
+    "request": {
+      "vars": {
+        "req": [
+          {
+            "name": "username",
+            "value": "",
+            "enabled": true,
+            "local": false,
+            "uid": "YFVOmxvl8RExIidlUOM1I"
+          },
+          {
+            "name": "password",
+            "value": "",
+            "enabled": true,
+            "local": false,
+            "uid": "w70X2YW32O2IvIX3nR2Ab"
+          },
+          {
+            "name": "signets",
+            "value": "https://signets-ens.etsmtl.ca/Secure/WebServices/SignetsMobile.asmx",
+            "enabled": true,
+            "local": false,
+            "uid": "1Je14oBwkVaiGQ4RArvHy"
+          },
+          {
+            "name": "localApi",
+            "value": "http://localhost:8000",
+            "enabled": true,
+            "local": false,
+            "uid": "Oop5aRevIMiRnFqDfmfdM"
+          }
+        ]
+      }
+    },
+    "docs": "## Signets production endpoint:\n```\nhttps://signets-ens.etsmtl.ca/Secure/WebServices/SignetsMobile.asmx\n```\n\n## Local API\n```\nhttp://<YOUR_IP>:8000\n```"
+  },
+  "brunoConfig": {
+    "version": "1",
+    "name": "Signets",
+    "type": "collection",
+    "ignore": [
+      "node_modules",
+      ".git"
+    ]
+  }
+}

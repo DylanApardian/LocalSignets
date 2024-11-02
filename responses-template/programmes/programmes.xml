@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <listeProgrammesResponse xmlns="http://etsmtl.ca/">
+            <listeProgrammesResult>
+                <erreur/>
+                <liste>
+                    <Programme>
+                        <code>0725</code>
+                        <libelle>Microprogramme de 1er cycle en enseignement coopératif I</libelle>
+                        <profil/>
+                        <statut>dossier fermé</statut>
+                        <sessionDebut>H2024</sessionDebut>
+                        <sessionFin>H2024</sessionFin>
+                        <moyenne/>
+                        <nbEquivalences>1</nbEquivalences>
+                        <nbCrsReussis>0</nbCrsReussis>
+                        <nbCrsEchoues>0</nbCrsEchoues>
+                        <nbCreditsInscrits>0</nbCreditsInscrits>
+                        <nbCreditsCompletes>9</nbCreditsCompletes>
+                        <nbCreditsPotentiels>9</nbCreditsPotentiels>
+                        <nbCreditsRecherche>0</nbCreditsRecherche>
+                    </Programme>
+                    <Programme>
+                        <code>7084</code>
+                        <libelle>Baccalauréat en génie logiciel</libelle>
+                        <profil/>
+                        <statut>actif</statut>
+                        <sessionDebut>A2023</sessionDebut>
+                        <sessionFin>H2025</sessionFin>
+                        <moyenne>3.69/4,30</moyenne>
+                        <nbEquivalences>0</nbEquivalences>
+                        <nbCrsReussis>12</nbCrsReussis>
+                        <nbCrsEchoues>0</nbCrsEchoues>
+                        <nbCreditsInscrits>26</nbCreditsInscrits>
+                        <nbCreditsCompletes>37</nbCreditsCompletes>
+                        <nbCreditsPotentiels>63</nbCreditsPotentiels>
+                        <nbCreditsRecherche>0</nbCreditsRecherche>
+                    </Programme>
+                </liste>
+            </listeProgrammesResult>
+        </listeProgrammesResponse>
+    </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <infoEtudiantResponse xmlns="http://etsmtl.ca/">
+            <infoEtudiantResult>
+                <erreur/>
+                <nom>LastName</nom>
+                <prenom>FirstName</prenom>
+                <codePerm>LASF12312312</codePerm>
+                <soldeTotal>12,00$</soldeTotal>
+                <masculin>true</masculin>
+            </infoEtudiantResult>
+        </infoEtudiantResponse>
+    </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <listeHoraireEtProfResponse xmlns="http://etsmtl.ca/">
+            <listeHoraireEtProfResult>
+                <erreur/>
+                <listeActivites>
+                    <HoraireActivite>
+                        <sigle>MAT350</sigle>
+                        <groupe>01</groupe>
+                        <jour>1</jour>
+                        <journee>Lundi</journee>
+                        <codeActivite>C</codeActivite>
+                        <nomActivite>Activité de cours</nomActivite>
+                        <activitePrincipale>Oui</activitePrincipale>
+                        <heureDebut>13:30</heureDebut>
+                        <heureFin>17:00</heureFin>
+                        <local>D-4010</local>
+                        <titreCours>Probabilités et statistiques</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>MAT350</sigle>
+                        <groupe>01</groupe>
+                        <jour>1</jour>
+                        <journee>Lundi</journee>
+                        <codeActivite>EXAM</codeActivite>
+                        <nomActivite>Examen</nomActivite>
+                        <activitePrincipale>Oui</activitePrincipale>
+                        <heureDebut>13:30</heureDebut>
+                        <heureFin>17:00</heureFin>
+                        <local>D-4010</local>
+                        <titreCours>Probabilités et statistiques</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>MAT350</sigle>
+                        <groupe>01</groupe>
+                        <jour>1</jour>
+                        <journee>Lundi</journee>
+                        <codeActivite>EXAM</codeActivite>
+                        <nomActivite>Examen</nomActivite>
+                        <activitePrincipale>Oui</activitePrincipale>
+                        <heureDebut>13:30</heureDebut>
+                        <heureFin>17:00</heureFin>
+                        <local>D-5023</local>
+                        <titreCours>Probabilités et statistiques</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>LOG210</sigle>
+                        <groupe>01</groupe>
+                        <jour>2</jour>
+                        <journee>Mardi</journee>
+                        <codeActivite>C</codeActivite>
+                        <nomActivite>Activité de cours</nomActivite>
+                        <activitePrincipale>Oui</activitePrincipale>
+                        <heureDebut>08:30</heureDebut>
+                        <heureFin>12:00</heureFin>
+                        <local>A-1424</local>
+                        <titreCours>Analyse et conception de logiciels</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>LOG210</sigle>
+                        <groupe>01</groupe>
+                        <jour>2</jour>
+                        <journee>Mardi</journee>
+                        <codeActivite>EXAM</codeActivite>
+                        <nomActivite>Examen</nomActivite>
+                        <activitePrincipale>Oui</activitePrincipale>
+                        <heureDebut>08:30</heureDebut>
+                        <heureFin>12:00</heureFin>
+                        <local>A-1424</local>
+                        <titreCours>Analyse et conception de logiciels</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>LOG210</sigle>
+                        <groupe>01</groupe>
+                        <jour>2</jour>
+                        <journee>Mardi</journee>
+                        <codeActivite>EXAM</codeActivite>
+                        <nomActivite>Examen</nomActivite>
+                        <activitePrincipale>Oui</activitePrincipale>
+                        <heureDebut>08:30</heureDebut>
+                        <heureFin>12:00</heureFin>
+                        <local>F-3060</local>
+                        <titreCours>Analyse et conception de logiciels</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>LOG210</sigle>
+                        <groupe>01</groupe>
+                        <jour>2</jour>
+                        <journee>Mardi</journee>
+                        <codeActivite>EXAM</codeActivite>
+                        <nomActivite>Examen</nomActivite>
+                        <activitePrincipale>Oui</activitePrincipale>
+                        <heureDebut>08:30</heureDebut>
+                        <heureFin>12:00</heureFin>
+                        <local>F-3062</local>
+                        <titreCours>Analyse et conception de logiciels</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>LOG320</sigle>
+                        <groupe>02</groupe>
+                        <jour>2</jour>
+                        <journee>Mardi</journee>
+                        <codeActivite>L</codeActivite>
+                        <nomActivite>Laboratoire</nomActivite>
+                        <activitePrincipale>Non</activitePrincipale>
+                        <heureDebut>13:30</heureDebut>
+                        <heureFin>16:30</heureFin>
+                        <local>A-3346</local>
+                        <titreCours>Structures de données et algorithmes</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>LOG320</sigle>
+                        <groupe>02</groupe>
+                        <jour>2</jour>
+                        <journee>Mardi</journee>
+                        <codeActivite>L</codeActivite>
+                        <nomActivite>Laboratoire</nomActivite>
+                        <activitePrincipale>Non</activitePrincipale>
+                        <heureDebut>13:30</heureDebut>
+                        <heureFin>16:30</heureFin>
+                        <local>A-3450</local>
+                        <titreCours>Structures de données et algorithmes</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>LOG320</sigle>
+                        <groupe>02</groupe>
+                        <jour>2</jour>
+                        <journee>Mardi</journee>
+                        <codeActivite>L</codeActivite>
+                        <nomActivite>Laboratoire</nomActivite>
+                        <activitePrincipale>Non</activitePrincipale>
+                        <heureDebut>13:30</heureDebut>
+                        <heureFin>16:30</heureFin>
+                        <local>D-3017</local>
+                        <titreCours>Structures de données et algorithmes</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>LOG210</sigle>
+                        <groupe>01</groupe>
+                        <jour>3</jour>
+                        <journee>Mercredi</journee>
+                        <codeActivite>L</codeActivite>
+                        <nomActivite>Laboratoire</nomActivite>
+                        <activitePrincipale>Non</activitePrincipale>
+                        <heureDebut>13:30</heureDebut>
+                        <heureFin>16:30</heureFin>
+                        <local>A-3220</local>
+                        <titreCours>Analyse et conception de logiciels</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>LOG210</sigle>
+                        <groupe>01</groupe>
+                        <jour>3</jour>
+                        <journee>Mercredi</journee>
+                        <codeActivite>L</codeActivite>
+                        <nomActivite>Laboratoire</nomActivite>
+                        <activitePrincipale>Non</activitePrincipale>
+                        <heureDebut>13:30</heureDebut>
+                        <heureFin>16:30</heureFin>
+                        <local>A-3230</local>
+                        <titreCours>Analyse et conception de logiciels</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>LOG320</sigle>
+                        <groupe>02</groupe>
+                        <jour>4</jour>
+                        <journee>Jeudi</journee>
+                        <codeActivite>C</codeActivite>
+                        <nomActivite>Activité de cours</nomActivite>
+                        <activitePrincipale>Oui</activitePrincipale>
+                        <heureDebut>13:30</heureDebut>
+                        <heureFin>17:00</heureFin>
+                        <local>E-4025</local>
+                        <titreCours>Structures de données et algorithmes</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>LOG320</sigle>
+                        <groupe>02</groupe>
+                        <jour>4</jour>
+                        <journee>Jeudi</journee>
+                        <codeActivite>ENCAD</codeActivite>
+                        <nomActivite>Séance d'encadrement</nomActivite>
+                        <activitePrincipale>Oui</activitePrincipale>
+                        <heureDebut>13:30</heureDebut>
+                        <heureFin>17:00</heureFin>
+                        <local>E-4025</local>
+                        <titreCours>Structures de données et algorithmes</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>MAT350</sigle>
+                        <groupe>01</groupe>
+                        <jour>5</jour>
+                        <journee>Vendredi</journee>
+                        <codeActivite>E</codeActivite>
+                        <nomActivite>Travaux pratiques</nomActivite>
+                        <activitePrincipale>Non</activitePrincipale>
+                        <heureDebut>09:00</heureDebut>
+                        <heureFin>12:00</heureFin>
+                        <local>A-1424</local>
+                        <titreCours>Probabilités et statistiques</titreCours>
+                    </HoraireActivite>
+                </listeActivites>
+                <listeEnseignants>
+                    <Enseignant>
+                        <nom>Robitaille</nom>
+                        <prenom>Patrice</prenom>
+                        <courriel>cc-Patrice.Robitaille@etsmtl.ca</courriel>
+                        <localBureau/>
+                        <telephone/>
+                        <enseignantPrincipal>Oui</enseignantPrincipal>
+                    </Enseignant>
+                    <Enseignant>
+                        <nom>Cardinal</nom>
+                        <prenom>Patrick</prenom>
+                        <courriel>Patrick.Cardinal@etsmtl.ca</courriel>
+                        <localBureau/>
+                        <telephone>514-396-8573</telephone>
+                        <enseignantPrincipal>Oui</enseignantPrincipal>
+                    </Enseignant>
+                    <Enseignant>
+                        <nom>Vicente</nom>
+                        <prenom>Serge</prenom>
+                        <courriel>SERGE.VICENTE@etsmtl.ca</courriel>
+                        <localBureau>B-2320</localBureau>
+                        <telephone>514-396-8800, poste 7860</telephone>
+                        <enseignantPrincipal>Oui</enseignantPrincipal>
+                    </Enseignant>
+                </listeEnseignants>
+            </listeHoraireEtProfResult>
+        </listeHoraireEtProfResponse>
+    </soap:Body>
+</soap:Envelope>

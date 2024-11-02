@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <listeHoraireEtProfResponse xmlns="http://etsmtl.ca/">
+            <listeHoraireEtProfResult>
+                <erreur/>
+                <listeActivites>
+                    <HoraireActivite>
+                        <sigle>MAT145</sigle>
+                        <groupe>02</groupe>
+                        <jour>1</jour>
+                        <journee>Lundi</journee>
+                        <codeActivite>E</codeActivite>
+                        <nomActivite>Travaux pratiques</nomActivite>
+                        <activitePrincipale>Non</activitePrincipale>
+                        <heureDebut>13:30</heureDebut>
+                        <heureFin>16:30</heureFin>
+                        <local>D-3018</local>
+                        <titreCours>Calcul différentiel et intégral</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>ING150</sigle>
+                        <groupe>04</groupe>
+                        <jour>1</jour>
+                        <journee>Lundi</journee>
+                        <codeActivite>E</codeActivite>
+                        <nomActivite>Travaux pratiques</nomActivite>
+                        <activitePrincipale>Non</activitePrincipale>
+                        <heureDebut>18:00</heureDebut>
+                        <heureFin>21:00</heureFin>
+                        <local>B-1514</local>
+                        <titreCours>Statique et dynamique</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>PRE011</sigle>
+                        <groupe>01</groupe>
+                        <jour>2</jour>
+                        <journee>Mardi</journee>
+                        <codeActivite>A</codeActivite>
+                        <nomActivite>Atelier</nomActivite>
+                        <activitePrincipale>Oui</activitePrincipale>
+                        <heureDebut>13:30</heureDebut>
+                        <heureFin>17:00</heureFin>
+                        <local>B-1504</local>
+                        <titreCours>Développement professionnel et initiation à la santé et sécurité</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>MAT145</sigle>
+                        <groupe>02</groupe>
+                        <jour>3</jour>
+                        <journee>Mercredi</journee>
+                        <codeActivite>C</codeActivite>
+                        <nomActivite>Activité de cours</nomActivite>
+                        <activitePrincipale>Oui</activitePrincipale>
+                        <heureDebut>09:00</heureDebut>
+                        <heureFin>12:30</heureFin>
+                        <local>D-4010</local>
+                        <titreCours>Calcul différentiel et intégral</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>LOG240</sigle>
+                        <groupe>01</groupe>
+                        <jour>3</jour>
+                        <journee>Mercredi</journee>
+                        <codeActivite>C</codeActivite>
+                        <nomActivite>Activité de cours</nomActivite>
+                        <activitePrincipale>Oui</activitePrincipale>
+                        <heureDebut>13:30</heureDebut>
+                        <heureFin>17:00</heureFin>
+                        <local>A-1300</local>
+                        <titreCours>Tests et maintenance</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>ING150</sigle>
+                        <groupe>04</groupe>
+                        <jour>4</jour>
+                        <journee>Jeudi</journee>
+                        <codeActivite>C</codeActivite>
+                        <nomActivite>Activité de cours</nomActivite>
+                        <activitePrincipale>Oui</activitePrincipale>
+                        <heureDebut>18:00</heureDebut>
+                        <heureFin>21:30</heureFin>
+                        <local>B-1516</local>
+                        <titreCours>Statique et dynamique</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>LOG240</sigle>
+                        <groupe>01</groupe>
+                        <jour>5</jour>
+                        <journee>Vendredi</journee>
+                        <codeActivite>Q</codeActivite>
+                        <nomActivite>Laboratoire (Groupe A)</nomActivite>
+                        <activitePrincipale>Non</activitePrincipale>
+                        <heureDebut>13:30</heureDebut>
+                        <heureFin>15:30</heureFin>
+                        <local>A-3220</local>
+                        <titreCours>Tests et maintenance</titreCours>
+                    </HoraireActivite>
+                    <HoraireActivite>
+                        <sigle>LOG240</sigle>
+                        <groupe>01</groupe>
+                        <jour>5</jour>
+                        <journee>Vendredi</journee>
+                        <codeActivite>R</codeActivite>
+                        <nomActivite>Laboratoire (Groupe B)</nomActivite>
+                        <activitePrincipale>Non</activitePrincipale>
+                        <heureDebut>15:30</heureDebut>
+                        <heureFin>17:30</heureFin>
+                        <local>A-3220</local>
+                        <titreCours>Tests et maintenance</titreCours>
+                    </HoraireActivite>
+                </listeActivites>
+                <listeEnseignants>
+                    <Enseignant>
+                        <nom>Paquin</nom>
+                        <prenom>Gérald</prenom>
+                        <courriel>Gerald.Paquin@etsmtl.ca</courriel>
+                        <localBureau>B-2519</localBureau>
+                        <telephone>514-396-8800, poste 7773</telephone>
+                        <enseignantPrincipal>Oui</enseignantPrincipal>
+                    </Enseignant>
+                    <Enseignant>
+                        <nom>Cardinal</nom>
+                        <prenom>Francis</prenom>
+                        <courriel>cc-Francis.Cardinal@etsmtl.ca</courriel>
+                        <localBureau>A-4526</localBureau>
+                        <telephone>514-396-8800, poste 7810</telephone>
+                        <enseignantPrincipal>Oui</enseignantPrincipal>
+                    </Enseignant>
+                    <Enseignant>
+                        <nom>Hamadache</nom>
+                        <prenom>Salima</prenom>
+                        <courriel>Salima.Hamadache@etsmtl.ca</courriel>
+                        <localBureau/>
+                        <telephone/>
+                        <enseignantPrincipal>Non</enseignantPrincipal>
+                    </Enseignant>
+                    <Enseignant>
+                        <nom>Forest</nom>
+                        <prenom>Marie</prenom>
+                        <courriel>Marie.Forest@etsmtl.ca</courriel>
+                        <localBureau>B-1616</localBureau>
+                        <telephone>514-396-8800, poste 7434</telephone>
+                        <enseignantPrincipal>Oui</enseignantPrincipal>
+                    </Enseignant>
+                    <Enseignant>
+                        <nom>Lapointe</nom>
+                        <prenom>Danny</prenom>
+                        <courriel>Danny.Lapointe@etsmtl.ca</courriel>
+                        <localBureau>B-2519</localBureau>
+                        <telephone>514-396-8800, poste 7773</telephone>
+                        <enseignantPrincipal>Oui</enseignantPrincipal>
+                    </Enseignant>
+                </listeEnseignants>
+            </listeHoraireEtProfResult>
+        </listeHoraireEtProfResponse>
+    </soap:Body>
+</soap:Envelope>

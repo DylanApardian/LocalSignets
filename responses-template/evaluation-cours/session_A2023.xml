@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <lireEvaluationCoursResponse xmlns="http://etsmtl.ca/">
+            <lireEvaluationCoursResult>
+                <erreur/>
+                <listeEvaluations>
+                    <EvaluationCours>
+                        <Sigle>ATE100</Sigle>
+                        <Groupe>01</Groupe>
+                        <Enseignant>Daoust, Marc-Kevin</Enseignant>
+                        <DateDebutEvaluation>2023-11-14T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2023-11-23T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>true</EstComplete>
+                    </EvaluationCours>
+                    <EvaluationCours>
+                        <Sigle>CHM131</Sigle>
+                        <Groupe>04</Groupe>
+                        <Enseignant>Hamoudi, Zéhira</Enseignant>
+                        <DateDebutEvaluation>2023-11-14T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2023-11-23T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>true</EstComplete>
+                    </EvaluationCours>
+                    <EvaluationCours>
+                        <Sigle>COM120</Sigle>
+                        <Groupe>11</Groupe>
+                        <Enseignant>Trudeau-Fisette, Paméla</Enseignant>
+                        <DateDebutEvaluation>2023-11-14T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2023-11-23T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>true</EstComplete>
+                    </EvaluationCours>
+                    <EvaluationCours>
+                        <Sigle>LOG100</Sigle>
+                        <Groupe>03</Groupe>
+                        <Enseignant>Dupuis, Mathieu</Enseignant>
+                        <DateDebutEvaluation>2023-11-14T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2023-11-23T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>true</EstComplete>
+                    </EvaluationCours>
+                    <EvaluationCours>
+                        <Sigle>LOG100</Sigle>
+                        <Groupe>03</Groupe>
+                        <Enseignant>Langar, Rami</Enseignant>
+                        <DateDebutEvaluation>2023-11-29T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2023-12-08T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>true</EstComplete>
+                    </EvaluationCours>
+                </listeEvaluations>
+            </lireEvaluationCoursResult>
+        </lireEvaluationCoursResponse>
+    </soap:Body>
+</soap:Envelope>

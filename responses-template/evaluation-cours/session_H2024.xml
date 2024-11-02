@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <lireEvaluationCoursResponse xmlns="http://etsmtl.ca/">
+            <lireEvaluationCoursResult>
+                <erreur/>
+                <listeEvaluations>
+                    <EvaluationCours>
+                        <Sigle>ING150</Sigle>
+                        <Groupe>04</Groupe>
+                        <Enseignant>Paquin, Gérald</Enseignant>
+                        <DateDebutEvaluation>2024-03-12T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2024-03-21T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>true</EstComplete>
+                    </EvaluationCours>
+                    <EvaluationCours>
+                        <Sigle>MAT145</Sigle>
+                        <Groupe>02</Groupe>
+                        <Enseignant>Hamadache, Salima</Enseignant>
+                        <DateDebutEvaluation>2024-03-12T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2024-03-21T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>true</EstComplete>
+                    </EvaluationCours>
+                    <EvaluationCours>
+                        <Sigle>PRE011</Sigle>
+                        <Groupe>01</Groupe>
+                        <Enseignant>Lapointe, Danny</Enseignant>
+                        <DateDebutEvaluation>2024-02-07T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2024-02-12T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>true</EstComplete>
+                    </EvaluationCours>
+                    <EvaluationCours>
+                        <Sigle>LOG240</Sigle>
+                        <Groupe>01</Groupe>
+                        <Enseignant>Cardinal, Francis</Enseignant>
+                        <DateDebutEvaluation>2024-03-12T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2024-03-21T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>true</EstComplete>
+                    </EvaluationCours>
+                    <EvaluationCours>
+                        <Sigle>MAT145</Sigle>
+                        <Groupe>02</Groupe>
+                        <Enseignant>Forest, Marie</Enseignant>
+                        <DateDebutEvaluation>2024-03-12T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2024-03-21T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Calculatrice</TypeEvaluation>
+                        <EstComplete>true</EstComplete>
+                    </EvaluationCours>
+                </listeEvaluations>
+            </lireEvaluationCoursResult>
+        </lireEvaluationCoursResponse>
+    </soap:Body>
+</soap:Envelope>

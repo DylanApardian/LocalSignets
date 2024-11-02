@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <listeElementsEvaluationResponse xmlns="http://etsmtl.ca/">
+            <listeElementsEvaluationResult>
+                <erreur>Cours ou bordereau de notes inexistant pour :XXXX00000000, MAT351-01 à l'automne 2024</erreur>
+                <noteACeJour/>
+                <scoreFinalSur100/>
+                <moyenneClasse/>
+                <ecartTypeClasse/>
+                <medianeClasse/>
+                <rangCentileClasse/>
+                <noteACeJourElementsIndividuels/>
+                <noteSur100PourElementsIndividuels/>
+                <tauxPublication/>
+                <liste/>
+            </listeElementsEvaluationResult>
+        </listeElementsEvaluationResponse>
+    </soap:Body>
+</soap:Envelope>

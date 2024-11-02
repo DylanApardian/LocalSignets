@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <listeSessionsResponse xmlns="http://etsmtl.ca/">
+            <listeSessionsResult>
+                <erreur/>
+                <liste>
+                    <Trimestre>
+                        <abrege>É2024</abrege>
+                        <auLong>Été 2024</auLong>
+                        <dateDebut>2024-05-06</dateDebut>
+                        <dateFin>2024-08-17</dateFin>
+                        <dateFinCours>2024-08-07</dateFinCours>
+                        <dateDebutChemiNot>2024-02-26</dateDebutChemiNot>
+                        <dateFinChemiNot>2024-03-12</dateFinChemiNot>
+                        <dateDebutAnnulationAvecRemboursement>2024-05-06</dateDebutAnnulationAvecRemboursement>
+                        <dateFinAnnulationAvecRemboursement>2024-05-17</dateFinAnnulationAvecRemboursement>
+                        <dateFinAnnulationAvecRemboursementNouveauxEtudiants>2024-05-31</dateFinAnnulationAvecRemboursementNouveauxEtudiants>
+                        <dateDebutAnnulationSansRemboursementNouveauxEtudiants>2024-06-01</dateDebutAnnulationSansRemboursementNouveauxEtudiants>
+                        <dateFinAnnulationSansRemboursementNouveauxEtudiants>2024-07-15</dateFinAnnulationSansRemboursementNouveauxEtudiants>
+                        <dateLimitePourAnnulerASEQ>2024-05-05</dateLimitePourAnnulerASEQ>
+                    </Trimestre>
+                    <Trimestre>
+                        <abrege>A2023</abrege>
+                        <auLong>Automne 2023</auLong>
+                        <dateDebut>2023-09-05</dateDebut>
+                        <dateFin>2023-12-21</dateFin>
+                        <dateFinCours>2023-12-09</dateFinCours>
+                        <dateDebutChemiNot>2023-05-29</dateDebutChemiNot>
+                        <dateFinChemiNot>2023-08-18</dateFinChemiNot>
+                        <dateDebutAnnulationAvecRemboursement>2023-09-05</dateDebutAnnulationAvecRemboursement>
+                        <dateFinAnnulationAvecRemboursement>2023-09-18</dateFinAnnulationAvecRemboursement>
+                        <dateFinAnnulationAvecRemboursementNouveauxEtudiants>2023-10-02</dateFinAnnulationAvecRemboursementNouveauxEtudiants>
+                        <dateDebutAnnulationSansRemboursementNouveauxEtudiants>2023-10-03</dateDebutAnnulationSansRemboursementNouveauxEtudiants>
+                        <dateFinAnnulationSansRemboursementNouveauxEtudiants>2023-11-13</dateFinAnnulationSansRemboursementNouveauxEtudiants>
+                        <dateLimitePourAnnulerASEQ>2023-09-30</dateLimitePourAnnulerASEQ>
+                    </Trimestre>
+                    <Trimestre>
+                        <abrege>A2024</abrege>
+                        <auLong>Automne 2024</auLong>
+                        <dateDebut>2024-09-03</dateDebut>
+                        <dateFin>2024-12-19</dateFin>
+                        <dateFinCours>2024-12-07</dateFinCours>
+                        <dateDebutChemiNot>2024-05-27</dateDebutChemiNot>
+                        <dateFinChemiNot>2024-06-11</dateFinChemiNot>
+                        <dateDebutAnnulationAvecRemboursement>2024-09-03</dateDebutAnnulationAvecRemboursement>
+                        <dateFinAnnulationAvecRemboursement>2024-09-16</dateFinAnnulationAvecRemboursement>
+                        <dateFinAnnulationAvecRemboursementNouveauxEtudiants>2024-09-30</dateFinAnnulationAvecRemboursementNouveauxEtudiants>
+                        <dateDebutAnnulationSansRemboursementNouveauxEtudiants>2024-10-01</dateDebutAnnulationSansRemboursementNouveauxEtudiants>
+                        <dateFinAnnulationSansRemboursementNouveauxEtudiants>2024-11-11</dateFinAnnulationSansRemboursementNouveauxEtudiants>
+                        <dateLimitePourAnnulerASEQ>2024-09-30</dateLimitePourAnnulerASEQ>
+                    </Trimestre>
+                    <Trimestre>
+                        <abrege>H2024</abrege>
+                        <auLong>Hiver 2024</auLong>
+                        <dateDebut>2024-01-04</dateDebut>
+                        <dateFin>2024-04-25</dateFin>
+                        <dateFinCours>2024-04-13</dateFinCours>
+                        <dateDebutChemiNot>2023-10-30</dateDebutChemiNot>
+                        <dateFinChemiNot>2023-11-14</dateFinChemiNot>
+                        <dateDebutAnnulationAvecRemboursement>2024-01-04</dateDebutAnnulationAvecRemboursement>
+                        <dateFinAnnulationAvecRemboursement>2024-01-17</dateFinAnnulationAvecRemboursement>
+                        <dateFinAnnulationAvecRemboursementNouveauxEtudiants>2024-01-31</dateFinAnnulationAvecRemboursementNouveauxEtudiants>
+                        <dateDebutAnnulationSansRemboursementNouveauxEtudiants>2024-02-01</dateDebutAnnulationSansRemboursementNouveauxEtudiants>
+                        <dateFinAnnulationSansRemboursementNouveauxEtudiants>2024-03-15</dateFinAnnulationSansRemboursementNouveauxEtudiants>
+                        <dateLimitePourAnnulerASEQ>2024-01-31</dateLimitePourAnnulerASEQ>
+                    </Trimestre>
+                </liste>
+            </listeSessionsResult>
+        </listeSessionsResponse>
+    </soap:Body>
+</soap:Envelope>

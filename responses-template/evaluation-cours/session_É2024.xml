@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <lireEvaluationCoursResponse xmlns="http://etsmtl.ca/">
+            <lireEvaluationCoursResult>
+                <erreur/>
+                <listeEvaluations>
+                    <EvaluationCours>
+                        <Sigle>GIA400</Sigle>
+                        <Groupe>01</Groupe>
+                        <Enseignant>Salvador-Tremblay, Julien</Enseignant>
+                        <DateDebutEvaluation>2024-07-16T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2024-07-25T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>true</EstComplete>
+                    </EvaluationCours>
+                    <EvaluationCours>
+                        <Sigle>MAT210</Sigle>
+                        <Groupe>02</Groupe>
+                        <Enseignant>Groiez, Mounira</Enseignant>
+                        <DateDebutEvaluation>2024-07-16T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2024-07-25T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>true</EstComplete>
+                    </EvaluationCours>
+                    <EvaluationCours>
+                        <Sigle>LOG121</Sigle>
+                        <Groupe>02</Groupe>
+                        <Enseignant>Robitaille, Patrice</Enseignant>
+                        <DateDebutEvaluation>2024-07-16T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2024-07-25T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>true</EstComplete>
+                    </EvaluationCours>
+                    <EvaluationCours>
+                        <Sigle>LOG410</Sigle>
+                        <Groupe>01</Groupe>
+                        <Enseignant>Bourque, Pierre</Enseignant>
+                        <DateDebutEvaluation>2024-07-16T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2024-07-25T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>true</EstComplete>
+                    </EvaluationCours>
+                </listeEvaluations>
+            </lireEvaluationCoursResult>
+        </lireEvaluationCoursResponse>
+    </soap:Body>
+</soap:Envelope>

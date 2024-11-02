@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <listeCoursResponse xmlns="http://etsmtl.ca/">
+            <listeCoursResult>
+                <erreur/>
+                <liste>
+                    <Cours>
+                        <sigle>STA106</sigle>
+                        <groupe>01</groupe>
+                        <session>s.o.</session>
+                        <programmeEtudes>0725</programmeEtudes>
+                        <cote>K</cote>
+                        <nbCredits>9</nbCredits>
+                        <titreCours>Stage industriel I en génie logiciel</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>ATE100</sigle>
+                        <groupe>01</groupe>
+                        <session>A2023</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote>S</cote>
+                        <nbCredits>0</nbCredits>
+                        <titreCours>Intégrité intellectuelle</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>CHM131</sigle>
+                        <groupe>04</groupe>
+                        <session>A2023</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote>A</cote>
+                        <nbCredits>4</nbCredits>
+                        <titreCours>Chimie et matériaux</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>COM120</sigle>
+                        <groupe>11</groupe>
+                        <session>A2023</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote>B+</cote>
+                        <nbCredits>3</nbCredits>
+                        <titreCours>Méthodes de communication</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>LOG100</sigle>
+                        <groupe>03</groupe>
+                        <session>A2023</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote>A+</cote>
+                        <nbCredits>4</nbCredits>
+                        <titreCours>Programmation et réseautique en génie logiciel</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>MAT145</sigle>
+                        <groupe>07</groupe>
+                        <session>A2023</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote>XX</cote>
+                        <nbCredits>4</nbCredits>
+                        <titreCours>Calcul différentiel et intégral</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>ING150</sigle>
+                        <groupe>04</groupe>
+                        <session>H2024</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote>A+</cote>
+                        <nbCredits>4</nbCredits>
+                        <titreCours>Statique et dynamique</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>LOG240</sigle>
+                        <groupe>01</groupe>
+                        <session>H2024</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote>A</cote>
+                        <nbCredits>3</nbCredits>
+                        <titreCours>Tests et maintenance</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>MAT145</sigle>
+                        <groupe>02</groupe>
+                        <session>H2024</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote>A-</cote>
+                        <nbCredits>4</nbCredits>
+                        <titreCours>Calcul différentiel et intégral</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>PRE011</sigle>
+                        <groupe>01</groupe>
+                        <session>H2024</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote>S</cote>
+                        <nbCredits>1</nbCredits>
+                        <titreCours>Développement professionnel et initiation à la santé et sécurité</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>GIA400</sigle>
+                        <groupe>01</groupe>
+                        <session>É2024</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote>B</cote>
+                        <nbCredits>3</nbCredits>
+                        <titreCours>Analyse de rentabilité de projets</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>LOG121</sigle>
+                        <groupe>02</groupe>
+                        <session>É2024</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote>A</cote>
+                        <nbCredits>4</nbCredits>
+                        <titreCours>Conception orientée objet</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>LOG410</sigle>
+                        <groupe>01</groupe>
+                        <session>É2024</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote>B</cote>
+                        <nbCredits>3</nbCredits>
+                        <titreCours>Analyse de besoins et spécifications</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>MAT210</sigle>
+                        <groupe>02</groupe>
+                        <session>É2024</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote>B</cote>
+                        <nbCredits>4</nbCredits>
+                        <titreCours>Logique et mathématiques discrètes</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>LOG210</sigle>
+                        <groupe>01</groupe>
+                        <session>A2024</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote/>
+                        <nbCredits>4</nbCredits>
+                        <titreCours>Analyse et conception de logiciels</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>LOG320</sigle>
+                        <groupe>02</groupe>
+                        <session>A2024</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote/>
+                        <nbCredits>4</nbCredits>
+                        <titreCours>Structures de données et algorithmes</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>MAT350</sigle>
+                        <groupe>01</groupe>
+                        <session>A2024</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote/>
+                        <nbCredits>4</nbCredits>
+                        <titreCours>Probabilités et statistiques</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>GTI350</sigle>
+                        <groupe>02</groupe>
+                        <session>H2025</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote/>
+                        <nbCredits>4</nbCredits>
+                        <titreCours>Conception et évaluation des interfaces utilisateurs</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>GTI700</sigle>
+                        <groupe>01</groupe>
+                        <session>H2025</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote/>
+                        <nbCredits>3</nbCredits>
+                        <titreCours>Principes et fondements de l’Internet des objets (IdO)</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>LOG530</sigle>
+                        <groupe>01</groupe>
+                        <session>H2025</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote/>
+                        <nbCredits>3</nbCredits>
+                        <titreCours>Réingénierie du logiciel</titreCours>
+                    </Cours>
+                    <Cours>
+                        <sigle>PHY335</sigle>
+                        <groupe>04</groupe>
+                        <session>H2025</session>
+                        <programmeEtudes>7084</programmeEtudes>
+                        <cote/>
+                        <nbCredits>4</nbCredits>
+                        <titreCours>Physique des ondes</titreCours>
+                    </Cours>
+                </liste>
+            </listeCoursResult>
+        </listeCoursResponse>
+    </soap:Body>
+</soap:Envelope>

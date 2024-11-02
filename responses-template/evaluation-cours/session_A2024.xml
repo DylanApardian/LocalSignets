@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <lireEvaluationCoursResponse xmlns="http://etsmtl.ca/">
+            <lireEvaluationCoursResult>
+                <erreur/>
+                <listeEvaluations>
+                    <EvaluationCours>
+                        <Sigle>MAT350</Sigle>
+                        <Groupe>01</Groupe>
+                        <Enseignant>Vicente, Serge</Enseignant>
+                        <DateDebutEvaluation>2024-11-12T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2024-11-21T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>false</EstComplete>
+                    </EvaluationCours>
+                    <EvaluationCours>
+                        <Sigle>LOG210</Sigle>
+                        <Groupe>01</Groupe>
+                        <Enseignant>Robitaille, Patrice</Enseignant>
+                        <DateDebutEvaluation>2024-11-12T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2024-11-21T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>false</EstComplete>
+                    </EvaluationCours>
+                    <EvaluationCours>
+                        <Sigle>LOG320</Sigle>
+                        <Groupe>02</Groupe>
+                        <Enseignant>Cardinal, Patrick</Enseignant>
+                        <DateDebutEvaluation>2024-11-12T00:00:00</DateDebutEvaluation>
+                        <DateFinEvaluation>2024-11-21T23:59:00</DateFinEvaluation>
+                        <TypeEvaluation>Cours</TypeEvaluation>
+                        <EstComplete>false</EstComplete>
+                    </EvaluationCours>
+                </listeEvaluations>
+            </lireEvaluationCoursResult>
+        </lireEvaluationCoursResponse>
+    </soap:Body>
+</soap:Envelope>

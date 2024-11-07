@@ -27,7 +27,8 @@ Local API for Signets
     pip install -r requirements.txt
     ```
 4. Configure your `./responses` directory.
-   - To start, you can create a directory called `responses` in the root of this project and copy all the contents from `./responses-template` into it. The data in the `./responses` directory is what the API will return. If you want to fill it with you own data, you can retrieve your data with [the bruno collection](#bruno)
+   - To start, you can create a directory called `responses` in the root of this project and copy all the contents from `./responses-template` into it. The data in the `./responses` directory is what the API will return. If you want to fill it with you own data, you can retrieve your data with [the bruno collection](#bruno).
+   - To use your own data, you can retrieve it directly from the Signets API using the Bruno collection in the `docs/` directory. More info [here](#using-custom-data).
 5. Run the API
    ```bash
    python signets.py
@@ -47,7 +48,24 @@ ETSMobile should now use your local API instead of the remote one. You can add/m
 
 Additionnally, you can retrieve the XML from Signets or your local API using the Bruno collection in `./docs/signets.json`. More info [here](#bruno-collection).
 
-The responses can be found in `./responses`. You can edit them as you wish
+## Using Custom Data
+
+By default all the XML responses can be found in their respective directories inside the `responses` directory.
+You can edit the XML files as you see fit.
+
+### File Structure
+
+| Directory         | Description                                                     | File Naming                      |
+| ----------------  | ------                                                          | -----------                      |
+| auth              |  Response if user authentication is valid                       | `auth.xml`                       |
+| cours             |  Response of all the user's courses                             | `cours.xml`                      |
+| evaluation-cours  |  Responses of all the user's teacher evaluations per session    | `session_{SESSION}.xml`          |
+| evaluations       |  Responses of all the user's evaluations per course             | `{COURSE}_{GROUP}_{SESSION}.xml` |
+| horaire-prof      |  Responses of all schedule per teacher per session              | `session_{SESSION}.xml`          |
+| horaires          |  Responses of all user's schedule per session                   | `session_{SESSION}.xml`          |
+| info              |  Response of the user's information                             | `infoEtudiant.xml`               |
+| programmes        |  Response of the user's academic programs                       | `programmes.xml`                 |
+| sessions          |  Response of the user's sessions                                | `sessions.xml`                   |
 
 ## Bruno
 
@@ -64,7 +82,7 @@ Additionally, you could set the `localAPI` address if you have the API running o
 
 ![vars](./docs/bruno_vars.png)
 
-### Step 3. Testing Endpoints
+### Step 3. Calling Endpoints
 
 You can now call the endpoints from the imported collection.
 - To call the Signets production endpoint use `{{signets}}` as the endpoint.
